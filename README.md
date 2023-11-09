@@ -25,3 +25,5 @@ You should now be ready to set up the `config.json` file
 - In the same environment as the one you will play G&G in, take a screenshot of the glimmer and gloom tiles, while leaving some space on each side. Name them `glimmer.png` and `gloom.png` and replace the current example files.
 
 **You should be ready to run the program!**
+To run the program without the command prompt, run `gg_hard_solver.pyw`. It will terminate when you close the gui.
+If you encounter any problems, create an issue.

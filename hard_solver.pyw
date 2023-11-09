@@ -1,0 +1,1 @@
+exec(open("hard_solver.py").read())
