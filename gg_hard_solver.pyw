@@ -1,0 +1,1 @@
+exec(open("gg_hard_solver.py").read())
