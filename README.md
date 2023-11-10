@@ -6,6 +6,8 @@ Upon pressing a button or a customizable hotkey, the solver will search specific
 ---
 
 # Setup
+Clone this repository. See this link if you need help: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository
+
 # Requirements
 - Python (https://www.python.org/downloads/)
     - Pip (https://pip.pypa.io/en/stable/installation/) (should be preinstalled with Python)
@@ -19,11 +21,12 @@ You should now be ready to set up the `config.json` file
     - Preferred hotkey (must be a valid hotkey in the `keyboard` package)
     - Screen bounding box in the form (x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>) following the image below
         - I suggest using MPos (https://sourceforge.net/projects/mpos/) to find your mouse position
-<p align="center"><img height="150" src="https://i.imgur.com/Ypx7hfc.png"></p>
+<p align="center"><img height="300" src="https://i.imgur.com/Ypx7hfc.png"></p>
 
 # Screenshots
 - In the same environment as the one you will play G&G in, take a screenshot of the glimmer and gloom tiles, while leaving some space on each side. Name them `glimmer.png` and `gloom.png` and replace the current example files.
 
 **You should be ready to run the program!**
+
 To run the program without the command prompt, run `gg_hard_solver.pyw`. It will terminate when you close the gui.
 If you encounter any problems, create an issue.
