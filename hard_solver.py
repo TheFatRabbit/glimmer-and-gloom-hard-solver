@@ -188,16 +188,6 @@ def solve_board():
         [None] * 4
     ]
 
-    # board_strings = [
-    #     ["X"] * 4,
-    #     ["X"] * 5,
-    #     ["X"] * 6,
-    #     ["O"] * 7,
-    #     ["X"] * 6,
-    #     ["O"] * 5,
-    #     ["X"] * 4
-    # ]
-
     click_list = [
         [False] * 4,
         [False] * 5,
