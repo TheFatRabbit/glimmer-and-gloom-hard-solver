@@ -205,7 +205,7 @@ def solve_board():
             elif pyautogui.locate(os.path.join(dirname, "gloom.png"), ImageGrab.grab(board_bounds[i][j]), confidence=0.9):
                 board_strings[i][j] = "O"
             else:
-                print(f"Failed to find pixel ({i}, {i})")
+                print(f"Failed to find pixel ({i}, {j})")
 
     print_formatted_board()
 
