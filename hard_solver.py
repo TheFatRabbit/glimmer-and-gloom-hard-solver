@@ -200,9 +200,10 @@ def solve_board():
 
     for i, row in enumerate(board_bounds):
         for j, pixel in enumerate(board_bounds[i]):
-            if pyautogui.locate(os.path.join(dirname, "glimmer.png"), ImageGrab.grab(board_bounds[i][j]), confidence=0.9):
+            image = ImageGrab.grab(board_bounds[i][j])
+            if pyautogui.locate(os.path.join(dirname, "glimmer.png"), image, confidence=0.9):
                 board_strings[i][j] = "X"
-            elif pyautogui.locate(os.path.join(dirname, "gloom.png"), ImageGrab.grab(board_bounds[i][j]), confidence=0.9):
+            elif pyautogui.locate(os.path.join(dirname, "gloom.png"), image, confidence=0.9):
                 board_strings[i][j] = "O"
             else:
                 print(f"Failed to find pixel ({i}, {j})")
