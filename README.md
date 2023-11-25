@@ -1,6 +1,8 @@
 # Glimmer and Gloom Hard Solver
 A solver for Hard difficulty of the Glimmer and Gloom minigame on Flight Rising
 
+<span style ="color:red">This repository is NOT ACTIVELY DEVELOPED! I will fix issues that arise. For more efficient treasure from Glimmer and Gloom, see [my Very Hard difficulty solver](https://github.com/TheFatRabbit/glimmer-and-gloom-very-hard-solver)!</span>
+
 Upon pressing a button or a customizable hotkey, the solver will search specific bounds for occurrences of both glimmer and gloom tiles and calculate the clicks required to solve the board from its curret state. The program will then overlay an indicator onto all tiles that need to be clicked in order to solve the board.
 
 ---
@@ -24,7 +26,7 @@ You should now be ready to set up the `config.json` file
 <p align="center"><img height="300" src="https://i.imgur.com/Ypx7hfc.png"></p>
 
 # Screenshots
-- In the same environment as the one you will play G&G in, take a screenshot of the glimmer and gloom tiles, while leaving some space on each side. Name them `glimmer.png` and `gloom.png` and replace the current example files.
+- In the same environment as the one you will play G&G in, take a screenshot of the glimmer and gloom tiles, while leaving some space on each side. Name them `glimmer.png` and `gloom.png` and replace the current example files. If the proportions of your game are vastly different from mine, you may find smaller images lead to more reliable detection.
 
 **You should be ready to run the program!**
 
