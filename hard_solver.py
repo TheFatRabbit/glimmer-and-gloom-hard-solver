@@ -14,10 +14,10 @@ config = json.load(open("config.json"))
 screen_width = config["screen_bbox"][2] - config["screen_bbox"][0]
 screen_height = config["screen_bbox"][3] - config["screen_bbox"][1]
 
-top_left_point = (23/70 * screen_width + config["screen_bbox"][0], 7/30 * screen_height + config["screen_bbox"][1])
-top_left_point_diagonal = (13/35 * screen_width + config["screen_bbox"][0], 61/300 * screen_height + config["screen_bbox"][1])
-top_left_point_vertical = (23/70 * screen_width + config["screen_bbox"][0], 29/100 * screen_height + config["screen_bbox"][1])
-top_right_point = (47/70 * screen_width + config["screen_bbox"][0], 7/30 * screen_height + config["screen_bbox"][1])
+top_left_point = (230/700 * screen_width + config["screen_bbox"][0], 140/600 * screen_height + config["screen_bbox"][1])
+top_left_point_diagonal = (260/700 * screen_width + config["screen_bbox"][0], 122/600 * screen_height + config["screen_bbox"][1])
+top_left_point_vertical = (230/700 * screen_width + config["screen_bbox"][0], 174/600 * screen_height + config["screen_bbox"][1])
+top_right_point = (470/700 * screen_width + config["screen_bbox"][0], 140/600 * screen_height + config["screen_bbox"][1])
 
 pixel_width = (top_right_point[0] - top_left_point[0]) / 4
 pixel_height = (top_left_point_vertical[1] - top_left_point[1]) + 2 * (top_left_point[1] - top_left_point_diagonal[1])
